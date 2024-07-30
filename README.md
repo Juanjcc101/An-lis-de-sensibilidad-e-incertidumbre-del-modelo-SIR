@@ -25,10 +25,15 @@ Se presentan las hipótesis planteadas para el análisis y control del modelo SI
 
 Métodos
 Modelo Verificado en Simulink: Se incluye la verificación del modelo SIR en Simulink, el cual es utilizado como insumo para el análisis posterior.
+
 Pruebas y Simulaciones: Se detallan los cálculos y modelos matemáticos utilizados en cada prueba y simulación, haciendo énfasis en los aspectos matemáticos y el uso del software MATLAB y Simulink.
+
 Resumen de Pasos: Se resume el procedimiento seguido para llevar a cabo el análisis de sensibilidad e incertidumbre.
-Resultados
-Control Lineal por Realimentación del Estado: Se diseñó y simuló un control lineal de asignación de polos por realimentación del estado para un punto de equilibrio seleccionado. Incluye:
+
+Resultados:
+Control Lineal por Realimentación del Estado: Se diseñó y simuló un control lineal de asignación de polos por realimentación del estado para un punto de equilibrio seleccionado. 
+
+Incluye:
 Trazado de la curva de linealidad.
 Selección de un punto de equilibrio de interés.
 Linealización en el punto de operación.
@@ -38,5 +43,6 @@ Diseño del controlador y simulación del sistema en lazo cerrado.
 Análisis de la respuesta del sistema ante perturbaciones en la entrada.
 Análisis de Incertidumbre: Programa y gráficos del análisis de incertidumbre de la salida del proceso con el controlador y las perturbaciones.
 Análisis de Sensibilidad Escalar: Gráficos del análisis de sensibilidad escalar para clasificar los parámetros del modelo de los más a los menos sensibles utilizando la herramienta GSUA.
-Discusión
+
+Discusión:
 Interpretación de los resultados obtenidos en el análisis de sensibilidad e incertidumbre, así como en el diseño del control lineal por realimentación del estado.
