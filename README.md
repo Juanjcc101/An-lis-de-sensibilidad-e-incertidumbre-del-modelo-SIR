@@ -4,15 +4,15 @@ Este repositorio contiene los archivos y el informe del proyecto realizado para 
 Contenidos del Repositorio
 Informe en Formato IMRAD:
 
-Archivo Live Script (informe_sir.mlx): Contiene los resultados del trabajo presentados en formato IMRAD. Desde este archivo se ejecutan y presentan los resultados de las diferentes pruebas.
+Archivo Live Script (Trabajo2_SL_Final.mlx): Contiene los resultados del trabajo presentados en formato IMRAD. Desde este archivo se ejecutan y presentan los resultados de las diferentes pruebas.
 Control de Realimentación del Estado:
 
-Archivo de Simulink (control_realimentacion_estado.slx): Contiene el modelo de Simulink utilizado para el control de realimentación del estado.
+Archivo de Simulink: Contiene el modelo de Simulink utilizado para el control de realimentación del estado.
 Análisis de Sensibilidad e Incertidumbre:
 
-Archivo de Simulink (analisis_sensibilidad.slx): Contiene el modelo de Simulink utilizado para el análisis de sensibilidad.
-Archivo de Información (info_analisis_sensibilidad.txt): Contiene información adicional y detalles del análisis de sensibilidad.
-Archivo GSUA (gsua_analisis.m): Contiene el código de MATLAB para el análisis de sensibilidad e incertidumbre utilizando la herramienta GSUA.
+Archivo de Simulink : Contiene el modelo de Simulink utilizado para el análisis de sensibilidad.
+Archivo de Información : Contiene información adicional y detalles del análisis de sensibilidad.
+Archivo GSUA : Contiene el código de MATLAB para el análisis de sensibilidad e incertidumbre utilizando la herramienta GSUA.
 Secciones del Informe IMRAD
 Introducción
 Se presenta una breve introducción al problema abordado, el modelo SIR y la importancia del análisis de sensibilidad e incertidumbre en sistemas dinámicos no lineales.
