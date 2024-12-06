@@ -1,59 +1,59 @@
-# Análisis de Sensibilidad e Incertidumbre del Modelo SIR
+# Sensitivity and Uncertainty Analysis of the SIR Model
 
-Este repositorio contiene los archivos y el informe del proyecto realizado para la práctica de control y análisis de sensibilidad e incertidumbre sobre un sistema dinámico no lineal con entrada, específicamente un modelo SIR (Susceptibles-Infectados-Recuperados). A continuación, se detallan los contenidos del repositorio y las secciones del informe en formato IMRAD.
+This repository contains the files and report for the project on control and sensitivity and uncertainty analysis of a nonlinear dynamic system with input, specifically the SIR (Susceptible-Infectious-Recovered) model. Below, the repository contents and the report sections in IMRAD format are detailed.
 
-## Contenidos del Repositorio
+## Repository Contents
 
-### Informe en Formato IMRAD
+### IMRAD Report
 
-- **Archivo Live Script**: `Trabajo2_SL_Final.mlx`
-  - Contiene los resultados del trabajo presentados en formato IMRAD. Desde este archivo se ejecutan y presentan los resultados de las diferentes pruebas.
+- **Live Script File**: `Trabajo2_SL_Final.mlx`
+  - Contains the results of the project presented in IMRAD format. Results from various tests can be executed and presented from this file.
 
-### Control de Realimentación del Estado
+### State Feedback Control
 
-- **Archivo de Simulink**: Contiene el modelo de Simulink utilizado para el control de realimentación del estado.
+- **Simulink File**: Contains the Simulink model used for state feedback control.
 
-### Análisis de Sensibilidad e Incertidumbre
+### Sensitivity and Uncertainty Analysis
 
-- **Archivo de Simulink**: Contiene el modelo de Simulink utilizado para el análisis de sensibilidad.
-- **Archivo de Información**: Contiene información adicional y detalles del análisis de sensibilidad.
-- **Archivo GSUA**: Contiene el código de MATLAB para el análisis de sensibilidad e incertidumbre utilizando la herramienta GSUA.
+- **Simulink File**: Contains the Simulink model used for sensitivity analysis.
+- **Information File**: Contains additional information and details about the sensitivity analysis.
+- **GSUA File**: Contains the MATLAB code for sensitivity and uncertainty analysis using the GSUA tool.
 
-## Secciones del Informe IMRAD
+## IMRAD Report Sections
 
-### Introducción
+### Introduction
 
-Se presenta una breve introducción al problema abordado, el modelo SIR y la importancia del análisis de sensibilidad e incertidumbre en sistemas dinámicos no lineales.
+A brief introduction to the problem, the SIR model, and the importance of sensitivity and uncertainty analysis in nonlinear dynamic systems.
 
-### Modelo Matemático y Breve Descripción
+### Mathematical Model and Description
 
-Se describe el modelo matemático del sistema SIR, incluyendo las variables de entrada, salida y estado, así como los parámetros del modelo.
+Describes the mathematical model of the SIR system, including the input, output, and state variables, as well as the model parameters.
 
-### Hipótesis
+### Hypotheses
 
-Se presentan las hipótesis planteadas para el análisis y control del modelo SIR.
+Outlines the hypotheses posed for the analysis and control of the SIR model.
 
-### Métodos
+### Methods
 
-- **Modelo Verificado en Simulink**: Se incluye la verificación del modelo SIR en Simulink, el cual es utilizado como insumo para el análisis posterior.
-- **Pruebas y Simulaciones**: Se detallan los cálculos y modelos matemáticos utilizados en cada prueba y simulación, haciendo énfasis en los aspectos matemáticos y el uso del software MATLAB y Simulink.
-- **Resumen de Pasos**: Se resume el procedimiento seguido para llevar a cabo el análisis de sensibilidad e incertidumbre.
+- **Verified Model in Simulink**: Includes the verification of the SIR model in Simulink, which serves as input for subsequent analysis.
+- **Tests and Simulations**: Details the calculations and mathematical models used in each test and simulation, with emphasis on the mathematical aspects and the use of MATLAB and Simulink software.
+- **Summary of Steps**: Summarizes the procedure followed for conducting sensitivity and uncertainty analysis.
 
-### Resultados
+### Results
 
-- **Control Lineal por Realimentación del Estado**: Se diseñó y simuló un control lineal de asignación de polos por realimentación del estado para un punto de equilibrio seleccionado. Incluye:
-  - Trazado de la curva de linealidad.
-  - Selección de un punto de equilibrio de interés.
-  - Linealización en el punto de operación.
-  - Comparación entre la aproximación lineal y el modelo no lineal.
-  - Análisis de controlabilidad del modelo lineal.
-  - Diseño del controlador y simulación del sistema en lazo cerrado.
-  - Análisis de la respuesta del sistema ante perturbaciones en la entrada.
+- **Linear State Feedback Control**: Designed and simulated a linear control system using pole placement based on state feedback for a selected equilibrium point. Includes:
+  - Plotting the linearity curve.
+  - Selection of an equilibrium point of interest.
+  - Linearization at the operating point.
+  - Comparison between the linear approximation and the nonlinear model.
+  - Controllability analysis of the linear model.
+  - Controller design and closed-loop system simulation.
+  - Analysis of system response under input disturbances.
 
-- **Análisis de Incertidumbre**: Programa y gráficos del análisis de incertidumbre de la salida del proceso con el controlador y las perturbaciones.
+- **Uncertainty Analysis**: Program and plots for the uncertainty analysis of the process output with the controller and disturbances.
 
-- **Análisis de Sensibilidad Escalar**: Gráficos del análisis de sensibilidad escalar para clasificar los parámetros del modelo de los más a los menos sensibles utilizando la herramienta GSUA.
+- **Scalar Sensitivity Analysis**: Plots for the scalar sensitivity analysis to rank the model parameters from most to least sensitive using the GSUA tool.
 
-### Discusión
+### Discussion
 
-Interpretación de los resultados obtenidos en el análisis de sensibilidad e incertidumbre, así como en el diseño del control lineal por realimentación del estado.
+Interpretation of the results obtained from the sensitivity and uncertainty analysis, as well as the design of the linear state feedback control.
